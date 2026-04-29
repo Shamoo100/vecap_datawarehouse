@@ -6,7 +6,7 @@ def db_source_conn():
     POSTGRES_ADDRESS_S = 'test-vec-app.cxci97ncnvqs.us-east-1.rds.amazonaws.com'
     POSTGRES_PORT_S = 5432
     POSTGRES_USERNAME_S = 'postgres'
-    POSTGRES_PASSWORD_S = '123vec_gh'
+    POSTGRES_PASSWORD_S = '*****'
     POSTGRES_DBNAME_S = 'member_profile'
 
     source_postgres_str = ('postgresql+psycop2://{username}:{password}@{ipaddress}:{port}/{dbname}'.
@@ -20,7 +20,7 @@ def db_target_conn():
     POSTGRES_ADDRESS_T = 'test-vec-app.cxci97ncnvqs.us-east-1.rds.amazonaws.com'
     POSTGRES_PORT_T = 5432
     POSTGRES_USERNAME_T = 'postgres'
-    POSTGRES_PASSWORD_T = '123vec_gh'
+    POSTGRES_PASSWORD_T = '*****'
     POSTGRES_DBNAME_T = 'analytics'
 
     source_postgres_str = ('postgresql+psycopg2://{username}:{password}@{ipaddress}:{port}/{dbname}'.
